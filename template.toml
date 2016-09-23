@@ -1,0 +1,35 @@
+[header]
+text = "Some header Markdown/HTML.\n"
+once = true
+
+[footer]
+text = "My footer"
+once = true
+
+[[tag]]
+tag = "feature"
+name = "Feature"
+
+[[tag]]
+tag = "doc"
+name = "Documentation"
+
+[[tag]]
+[[tag.subtag]]
+tag = "doc_internal"
+name = "Internal documentation"
+
+[[tag]]
+[[tag.subtag]]
+tag = "default"
+name = "Default stuff"
+
+[[tag]]
+[[tag.subtag]]
+tag = "doc_cust"
+name = "Customer documentation"
+
+[[tag]]
+tag = "internal"
+name = "Internal"
+footers = ["Fixes"]
